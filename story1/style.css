@@ -1,0 +1,51 @@
+h1 {
+    color: navy;
+    font-size: 2em;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+#intro {
+    color: navy;
+}
+
+#byline {
+    font-family: 'Franklin Gothic Medium', 'Arian Narrow', 'Arial', 'sans-serif';
+}
+
+.caption {
+    font-size: 0.5em;
+}
+
+/* 
+byline {
+    can have byline tag instead of using div and then just do the style stuff here instead 
+    maybe put initials before tag in case you combine code with someone and they also have a byline tag 
+} */
+
+/* 
+tagline {
+    
+}
+*/
+
+/*
+p.story {
+
+}
+*/
+
+div {
+    border: solid 1px gray;
+}
+
+/* for phones */
+@media (orientation: portrait) {
+    body {
+        width: 95%;
+        font-size: 2em
+    }
+}
