@@ -1,21 +1,26 @@
+/* sets the headline formatting and makes the headline navy + large*/
 h1 {
     color: navy;
     font-size: 2em;
 }
 
+/* sets the body formatting so that it takes up half the page in the middle */
 body {
     width: 50%;
     margin: auto;
 }
 
+/* makes the intro navy */
 #intro {
     color: navy;
 }
 
+/* selects the default font for the byline and provides alternate fonts in case the first is not available*/
 #byline {
     font-family: 'Franklin Gothic Medium', 'Arian Narrow', 'Arial', 'sans-serif';
 }
 
+/* makes the caption small */
 .caption {
     font-size: 0.5em;
 }
@@ -38,9 +43,11 @@ p.story {
 }
 */
 
+/* used for class purposes
 div {
     border: solid 1px gray;
 }
+    */
 
 /* for phones */
 @media (orientation: portrait) {
