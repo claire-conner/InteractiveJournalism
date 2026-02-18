@@ -1,0 +1,51 @@
+/* sets the headline formatting and makes the headline navy + large*/
+h1 {
+    color: navy;
+    font-size: 2em;
+    font-family: 'Arian Narrow', 'Arial', 'sans-serif';
+}
+
+h2 {
+    color: navy;
+    font-size: 1.5em;
+    font-family: 'Arian Narrow', 'Arial', 'sans-serif';
+}
+
+
+/* sets the body formatting so that it takes up half the page in the middle */
+body {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(210, 234, 242);
+}
+
+/* makes the intro navy */
+#intro {
+    color: navy;
+    font-size: 1em;
+}
+
+/* selects the default font for the byline and provides alternate fonts in case the first is not available*/
+#byline {
+    font-family: 'Arian Narrow', 'Arial', 'sans-serif';
+}
+
+/* makes the caption small */
+.caption {
+    font-size: 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+/* for phones */
+@media (orientation: portrait) {
+    body {
+        width: 95%;
+        font-size: 2em
+    }
+}
