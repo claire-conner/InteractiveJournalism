@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--connects to the CSS stylesheet and fonts-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claire Conner Data Story </title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!--navigation bar with links to both pages-->
+    <nav>
+        <div class="nav-name">Claire Conner</div>
+        <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="story.html" class="active">Recent Story</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+
+    <!-- mobile dropdown menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">About</a>
+        <a href="story.html">Recent Story</a>
+    </div>
+
+    <!-- this is the article! -->
+    <div id="article">
+
+        <h1>Luck Be a Lady: How female sports bettors and women's athletics are driving an underestimated market</h1>
+
+        <div id="byline">By Claire Conner</div>
+
+        <!--hero image with caption-->
+        <img src="wnba.jpg" width="100%"
+            alt="photo of Minnesota Lynx vs Indiana Fever, on July 14th, 2024 at Target Center in Minneapolis, Minnesota (photo credit John McClellan)" />
+        <div class="caption">Minnesota Lynx vs Indiana Fever, on July 14th, 2024 at Target Center in Minneapolis,
+            Minnesota (photo credit John McClellan)</div>
+
+        <p class="article">What do sports bettors look like, and what are they typically betting on? A visit to
+            FanDuel's
+            website might provide a misleading answer to that question. The sportsbook's home page shows football
+            players, NBA stars, a man looking excitedly at his phone, and an illustration of another man lifting his
+            arms into the sky.</p>
+
+        <p class="article">Notably missing: women. Female sports bettors now make up over one third of the market,
+            according to a <a
+                href="https://www.legalsportsreport.com/214204/morgan-stanley-draftkings-fanduel-lead-as-sports-betting-demos-shift/"
+                target="_blank">2024 Morgan Stanley survey</a>. The percentage of female bettors grew 10 percentage
+            points between 2020 and 2024.</p>
+
+
+        <!-- data vis: growth of female sports bettors over time-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28159571">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/28159571/thumbnail" width="100%" />
+            </noscript>
+        </div>
+
+        <!-- data vis: betting habits by gender-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28159955">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/28159955/thumbnail" width="100%" />
+            </noscript>
+        </div>
+
+        <p></p>
+
+        <p class="article">Percentages of sports bettors for women and men are even closer among college-age adults. An
+            <a href="https://ncaaorg.s3.amazonaws.com/research/wagering/Apr2023NCAA_WageringKeyFindings.pdf"
+                target="_blank">NCAA survey</a> in 2023 found that 51% of women aged 18-22 have placed at least one
+            sports bet, a bit more than ten percentage points behind the two thirds of men in that category.
+        </p>
+
+        <p class="article">According to the survey, women tend to make live, in-game bets at a higher rate than men do,
+            but they are less likely to make traditional, pre-game bets.</p>
+
+        <p class="article">Sportsbooks diverge when it comes to the gender makeup of their users. Women represent much
+            larger percentages of smaller books' user bases.</p>
+
+        <!-- data vis: female users by sportsbook platform-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28160376">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/28160376/thumbnail" width="100%" />
+            </noscript>
+        </div>
+
+        <p class="article">Despite the relatively higher market share of betting coming from men's sports, the average
+            NFL
+            or NBA fan is not the most likely to place a bet. That title belongs to fans of women's sports.</p>
+
+        <p class="article">A study from Northwestern Medill's Spiegel Research Center found that women's sports viewers
+            had the highest average gambling index. This statistic measures how much more likely a viewer of a sport is
+            to gamble compared to the average adult. People who watch women's sports had the highest index at 189.8,
+            meaning that they were 90% more likely to bet than the average user.</p>
+
+        <!-- data vis: gambling index by sport-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28160666">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/28160666/thumbnail" width="100%" />
+            </noscript>
+        </div>
+
+    </div>
+
+    <!-- connects to javascript-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

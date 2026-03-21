@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--connects to CSS stylesheet and Google Fonts-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claire Conner's Portfolio</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- navigation bar with links to both pages displayed as a list-->
+    <nav>
+        <div class="nav-name">Claire Conner</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">About</a></li>
+            <li><a href="story.html">Recent Story</a></li>
+        </ul>
+        <!--hamburger menu for mobile use instead of the existing nav bar-->
+        <button class="hamburger" id="hamburger" </button>
+    </nav>
+
+    <!--mobile dropdown menu, toggled by script.js-->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">About</a>
+        <a href="story.html">Recent Story</a>
+    </div>
+
+    <!--main about me section with photo and bio-->
+    <div class="about">
+
+        <img src="photo.jpg" alt="Claire Conner smiling in front of a panoramic view of Porto, Portugal"
+            class="profile-photo" />
+
+        <div class="about-text">
+            <h1>Hi! I'm Claire.</h1>
+            <p class="subdeck">Journalist · Student · Sports & Policy Enthusiast</p>
+
+            <p>I'm a junior at Northwestern University's Medill School of Journalism, triple-majoring in Journalism,
+                Political Science, and History. I love using data and technological tools to tell more compelling
+                stories and improve my research.
+            </p>
+
+            <p>
+                My recent projects explored topics like private equity in college athletics and the rise of
+                sports betting, but I spend most of my
+                time in the broadcast booth and podcast studio. I'm a play-by-play announcer covering football,
+                basketball, and women's lacrosse for
+                WNUR Sports at Northwestern.
+            </p>
+
+            <p>
+                I am also passionate about policy research and advocacy work. Last summer, I
+                interened at The
+                Alliance for Children's Rights, a legal nonprofit that
+                serves foster youth in Los Angeles. I built an automated policy tracker for the
+                Alliance to help them stay updated on legislative
+                changes that impact clients. I am excited to continue my policy work this summer as an intern for
+                Senator Mark Warner's Washington, D.C. office.
+            </p>
+
+            <!-- button that downloads resume as a PDF, connects to the button class in the CSS to show the download option as a button  -->
+            <a href="ClaireConnerResume.pdf" download class="button">Download Résumé</a>
+        </div>
+
+    </div>
+
+    <!-- connects to javascript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
